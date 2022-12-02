@@ -1,0 +1,59 @@
+.addMeetingContainer {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(92, 194, 212);
+    padding: 10px 16px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+ 
+.addMeetingHeader {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+   
+}
+
+
+.addMeetingSeperator {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    margin: 5px 0;
+}
+
+.addMeetinglabel {
+    width: 100%;
+    font-size: 15px;
+    color: black;
+}
+
+.addButton {
+    margin-top: 8px;
+    background-color: rgb(56, 147, 163) !important;
+    color: white !important;
+    border-radius: 3px !important;
+    text-align: center !important;
+    height: 30px !important;
+    border: none !important;
+    transition: 0.3s !important;
+    padding: 3px 10px !important;
+}
+
+.addButton:hover {
+    background-color: rgb(39, 103, 114) !important;
+}
+
+
+.addMeetingError {
+    width: 100%;
+    text-align: left;
+    color: crimson;
+    font-size: 15px;
+    margin-top: 8px;
+    height: 20px;
+}

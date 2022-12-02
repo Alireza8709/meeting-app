@@ -1,0 +1,59 @@
+.Email {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(92, 194, 212);
+    transition: 0.3s;
+}
+.Email:hover {
+    color: rgb(72, 177, 196);
+}
+
+
+.MenuIcon {
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 3px;
+}
+
+.MenuIcon:hover {
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.NavStyle {
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.NavStyle:hover {
+    background-color: #ebebeb;
+}
+
+
+.NavStyle:active {
+    background-color: #b8aeae;
+}
+
+.NavbarPageDetector {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.NavStyleLogout {
+    display: inline;
+    text-align: left !important;
+}
+
+
+@media (min-width: 992px) {
+    .NavStyleLogout {
+        
+        text-align: center !important;
+    }
+    .NavbarPageDetector {
+        display: none;
+    }
+}

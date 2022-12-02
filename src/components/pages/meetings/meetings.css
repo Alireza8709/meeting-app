@@ -1,0 +1,25 @@
+.meetings {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   /*start */
+    align-items: center;
+}
+
+
+.header {
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+
+.seprator {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(190, 190, 190);
+}

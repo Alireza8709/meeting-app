@@ -1,0 +1,97 @@
+
+
+.meetingsFilter {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filterBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(92, 194, 212);
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+
+.filterBoxHeader {
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+}
+
+.filterBoxSeprator {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    margin: 5px 0;
+}
+
+.searchButton {
+    background-color: rgb(56, 147, 163) !important;
+    color: white !important;
+    border-radius: 3px !important;
+    text-align: center !important;
+    border: none !important;
+    transition: 0.3s !important;
+    padding: 3px 10px !important;
+}
+
+.searchButton:hover {
+    background-color: rgb(39, 103, 114) !important;
+}
+
+.header {
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.meetingsFilterItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 8px;
+}
+
+.meetingsFilterItemTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.meetingsFilterItemTime {
+    font-size: 15px;
+}
+
+.meetingsFilterItemName {
+    width: 100%;
+    text-align: left;
+
+}
+
+.meetingsFilterItemAttendeesText {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.meetingsFilterItemEmail {
+    font-size: 15px;
+    margin-right: 10px;
+}
+

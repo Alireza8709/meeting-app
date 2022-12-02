@@ -1,0 +1,99 @@
+.teams-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 16px;
+    border-radius: 6px;
+    min-height: 356px;
+}
+
+.teams-item-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teams-item-time {
+    font-size: 15px;
+}
+
+.teams-item-description {
+    width: 100%;
+    text-align: left;
+    color: gray;
+    margin-top: 4px;
+    height: 50px;
+    overflow: auto;
+}
+
+.teams-item-description::-webkit-scrollbar {
+    display: none;
+}
+
+.membersContainer {
+    width: 100%;
+    height: 50px;
+    overflow: auto;
+}
+
+.membersContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.teams-item-attendees-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.teams-item-email {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.teams-item-title {
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.teams-item-shortname {
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+.AddButton {
+    background-color: rgb(56, 147, 163) !important;
+    color: white !important;
+    border-radius: 3px !important;
+    text-align: center !important;
+    height: 35px !important;
+    border: none !important;
+    transition: 0.3s !important;
+    padding: 3px 10px !important;
+}
+
+.AddButton:hover {
+    background-color: rgb(39, 103, 114) !important;
+}
+
+
+.teams-item-error {
+    color: red;
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+    margin-top: 8px;
+    height: 20px;
+}
+
+
+.select-user {
+    width: 100%;
+    max-width: 190px;
+}
