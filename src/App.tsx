@@ -8,10 +8,11 @@ import Register from './components/pages/register/Register';
 const App:FC<{}> = () => {
 	return (
 		<Switch>
-			<Route path={'/'} exact> <Redirect to="/Login" /> </Route>
+			<Route path={'/'} exact> <Redirect to="/login" /> </Route>
 			<Route path={'/register'} component={Register} />
 			<Route path={'/login'} component={Login} />
 			<Route path={['/calendar', '/meetings', '/teams']} component={Layout} />
+			<Route> <Redirect to="/" /> </Route>
 		</Switch>
 	)
 }
